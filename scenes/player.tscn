@@ -81,6 +81,10 @@ frame_progress = 0.68647337
 shape = SubResource("CapsuleShape2D_u8vuu")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2029072687]
+limit_left = -16
+limit_top = -16
+limit_right = 1184
+limit_bottom = 704
 
 [node name="AttackArea" type="Area2D" parent="." unique_id=615301310]
 collision_mask = 2
